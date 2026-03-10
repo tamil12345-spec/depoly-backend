@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // ── Middleware ────────────────────────────────────────────────
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'zippy-croquembouche-b60afa.netlify.app',
+  origin: process.env.FRONTEND_URL || 'https://zippy-croquembouche-b60afa.netlify.app',
   credentials: true,
 }));
 app.use(express.json());
